@@ -45,7 +45,21 @@
        left: 650px;
     }
 
+    .bottom1{
+       position:absolute;
+       top: 775px;
+       left: 650px;
+    }
+
     .face{
+        float:left;
+        border:1px solid white;
+        width:39px;
+        height:39px;
+        border-radius: 50%;
+    }
+
+    .face1{
         float:left;
         border:1px solid white;
         width:39px;
@@ -61,6 +75,65 @@
         font-weight: bolder;
         line-height: 40px;
         margin-left: 50px;
+    }
+
+    .title1{
+        position: absolute;
+        color:white;
+        white-space:nowrap;
+        font-size: 25px;
+        font-weight: bolder;
+        line-height: 40px;
+        margin-left: 50px;
+    }
+
+    .day{
+        position: absolute;
+        top:75px;
+        right:650px;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #26ab79;
+        line-height: 35px;
+        color: white;
+    }
+
+    .day1{
+        position: absolute;
+        top:480px;
+        right:650px;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #26ab79;
+        line-height: 35px;
+        color: white;
+    }
+
+    em{
+        font-style: normal;
+        font-weight: bolder;
+    }
+
+    span{
+        margin-left: 15px;
+
+    }
+
+    .qui-aside{
+        position: absolute;
+        top:23px;
+        left:425px;
+        width:200px;
+        height:820px;
+        background-color: #2d3741;
+    }
+
+    ul{
+        list-style: none;
     }
 
 </style>
@@ -80,7 +153,52 @@
             </p>
             <h2 class="title">我的旅游行程</h2>
         </div>
-
+        
+        <p class="day">14天</p>
+        <div>
+            <em>
+                城市
+            </em>
+            <span>
+                   昆明 - 香格里拉 - 西藏 
+            </span>
+            
+        </div>
     </section>
+
+    <section class="plcRouteList">
+        <a href="">
+            <img src="./image/华东.jpg" alt="" width="635">
+        </a>
+        
+        <div class="bottom1">
+            <p class="face1">
+               <img src="./image/touxiang.jpg" alt="" width="38" height="38" class="pic">
+            </p>
+            <h2 class="title1">我的旅游行程</h2>
+        </div>
+        
+        <p class="day1">15天</p>
+        <div>
+            <em>
+                城市
+            </em>
+            <span>
+                   北京 - 常州 - 苏州
+            </span>
+            
+        </div>
+    </section>
+
+    <aside class="qui-aside">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">目的地</a></li>
+            <li><a href="">酒店</a></li>
+            <li><a href="">机票</a></li>
+            <li><a href="">时间</a></li>
+            <li><a href="">点评</a></li>
+        </ul>
+    </aside>
 </body>
 </html>
